@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="What it's about">
+    <title>About</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png">
+    <link rel="manifest" href="../images/site.webmanifest">
+    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="../images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&family=Ubuntu:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    
+    <link href="../styles/styles.css" rel="stylesheet">
+
+    <script>
+        window.addEventListener("DOMContentLoaded", () => {
+            document.querySelector(".menu-icon").addEventListener("click", () => {
+                document.querySelector(".main-menu").classList.toggle("menu-show");
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="main-menu">
+        <div class="menu-icon">
+            <svg viewbox="0 0 60 60" width="60px" height="60px">
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+            </svg>
+        </div>
+
+        <nav>
+            <h2 class="hidden">Main Menu</h2>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a>About</a></li>
+                <li><a href="../creatures/dragons/index.html">Dragons</a></li>
+                <li><a href="../form/index.html">Form</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>What I'm Doing</h1>
+        <article>
+            <p>
+                I am slowly making a website containing different pages that hold information from different sources 
+                of fiction that are about creatures found in those wonderful worlds of imagination.
+            </p>
+        
+            <h2>Eventual Pages</h2>
+            <dl>
+                <dt>Dragons</dt>
+                <dd>I will have a page specifically for the different types of Dragons 
+                    and give information that is specific to those types of dragons.
+                </dd>
+                <dt>Giants</dt>
+                <dd>There are multiple types of giants depending on what sources you get 
+                    them from. For example D&D has Storm Giants and Fire Giants while Harry 
+                    Potter simply has Giants and Half-Giants.
+                </dd>
+                <dt>Other Misc Creatures</dt>
+                <dd>To name a few I am interested in eventually adding there are Basilisks, The Nemean Lion, Direwolves, 
+                    Goblins, Werewolves, and Elementals.
+                </dd>
+            </dl>
+
+            <h2>Sources of Material</h2>
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Dungeons_%26_Dragons">Dungeons and Dragons</a> is a role-playing game that 
+                contains many different types of monsters and has books with information about them.
+            </p>
+            <p>Harry Potter is a book series written by J.K. Rowling that contains some information on magical creatures.</p>
+        </article>
+    </main>
+</body>
+</html>
